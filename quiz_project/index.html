@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ MASTER</title>
+    <link rel="stylesheet" href="style .css">
+</head>
+<body>
+    <main class="main ">
+        <header class="header">
+            <a href="#" class="logo">QUIZ MASTER</a>
+            <nav class="navbar">
+                <a href="#" class="active">HOME</a>
+                <a href="#">ABOUT</a>
+            </nav>
+        </header>
+        <div class="container">
+            <section class="quizcontainer">
+                <div class="quizbox">
+                   <div id="game" class="justifycenter flexcolumn" >
+                    <div id="hud">
+                        <div class="huditem">
+                            <p id="progresstext" class="hudprefex">
+                                questions
+                            </p>
+                            <div id="progressbar">
+                                <div id="progressbarfull"></div>
+                            </div>
+                        </div>
+                        <div class="huditem">
+                            <p class="hudprefex">
+                                SCORE
+                            </p>
+                            <h1 class="hudmaintext" id="score">0</h1>
+                        </div>
+                    </div>
+                    <h1 id="question">what is the answer to this question</h1>
+                    <div class="choicecontainer">
+                        <p class="choiceprefix">A</p>
+                        <p class="choicetext" data-number="1">choice 1</p>
+                    </div>
+                    <div class="choicecontainer">
+                        <p class="choiceprefix">B</p>
+                        <p class="choicetext" data-number="2">choice 2</p>
+                    </div>
+                    <div class="choicecontainer">
+                        <p class="choiceprefix">C</p>
+                        <p class="choicetext" data-number="3">choice 3</p>
+                    </div>
+                    <div class="choicecontainer">
+                        <p class="choiceprefix">D</p>
+                        <p class="choicetext" data-number="4">choice 4</p>
+                    </div>
+                   </div> 
+                </div>
+            </section>
+        <section class="home">
+            <div class="homecontent">
+                <h1>QUIZ MASTER</h1>
+                <p>Join us now and unlock the thrill of learning through captivating quizzes. Test your knowledge, challenge your intellect, and have a blast along the way. Quiz Master - Where knowledge meets fun! 
+                </p>
+                <button class="startbtn">START QUIZ</button>
+            </div>
+        </section>
+        </div>
+    </main>
+    <div class="usernameinfo">
+        <h2>PLAYER </h2>
+        <img class="propic" src="blank-profile-picture-973460_640.webp" alt="Girl in a jacket" width="300" height="250">
+        <div class="inputbox">
+            <input type="text" required="required">
+            <span>username</span>
+        </div>
+                <div class="btngroup">
+            <button class="infobtn exitbtn">EXIT</button>
+            <a href="#" class="infobtn continubtn">CONTINUE</a>
+        </div>
+
+    </div>
+   
+    <script src="function.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
